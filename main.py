@@ -22,7 +22,7 @@ app_mode = st.sidebar.selectbox("Find Your Way:", ['Home', 'About', 'Detect'])
 
 if app_mode == 'Home':
     st.header("Plant Disease Detective")
-    image_path = "plantdetectives.jpg"
+    image_path = "Capstone/plantdetectives.jpg"
     st.image(image_path, use_column_width=True)
 
 if app_mode == 'About':
